@@ -9,7 +9,7 @@ contract Loans{
         uint loanBalance;
     }
 
-    Accounts accountsContract = Accounts(0x809d550fca64d94Bd9F66E60752A544199cfAC3D);
+    Accounts accountsContract = Accounts(0x5FbDB2315678afecb367f032d93F642f64180aa3);
 
     mapping(uint => LoanAccount) loanAccounts;
 
