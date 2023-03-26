@@ -8,6 +8,5 @@ npx hardhat run scripts/deploy_loans.js --network localhost
 copy addresses to contracts/Loans.sol, services --> getAccount and getLoansContract
  npm start
 
- ##
 
  
