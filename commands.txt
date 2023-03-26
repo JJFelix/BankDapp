@@ -1,0 +1,9 @@
+npx hardhat node
+
+npx hardhat run scripts /deploy_accounts.js --network lo
+calhost
+
+npx hardhat run scripts/deploy_loans.js --network localhost
+
+copy addresses to contracts/Loans.sol, services --> getAccount and getLoansContract
+ npm start
